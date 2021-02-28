@@ -262,7 +262,25 @@ nav {
 .drop-open-item:active +.drop-open-list {
 	display: flex;
 }
+
+@media only screen and (max-width: 400px) {
+	.container-nav {
+		width: 400px;
+		.img-header-right-2 {
+		display: block;
+		position: relative;
+		left: -80px;
+		width: 300px;
+		height: 300px;
+		overflow: hidden;
+		}
+		
+	}
+} 
+
+
 @media only screen and (max-width: 350px) {
+
 
 	.container-nav  {
 		width: 350px;
