@@ -1,0 +1,143 @@
+.section-second {
+	background-color: #FAFAFA;
+	padding: 80px 50px;
+
+	.second-page {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+
+		.heading-secondary-first {
+			margin: 0;
+			padding: 0;
+			font-weight: 100;
+			font-size: 40px;
+			line-height: 64px;
+			letter-spacing: -0.714286px;
+			color: #2D314D;
+			margin-bottom: 40px;
+		}
+		&-list {
+			display: flex;
+			&-item {
+
+				width: 255px;
+				background: #FFFFFF;
+				border-radius: 5px;
+				margin-right: 30px;
+				img {
+					display: block;
+				}
+
+
+				.info-wrapper-second {
+					padding: 24px;
+
+					.autor-second {
+						display: block;
+						font-weight: normal;
+						font-size: 10px;
+						line-height: 18px;
+						letter-spacing: -0.15625px;
+						color: #9597A5;
+					}
+					.link-second-page{
+						width: 207px;
+						display: inline-block;
+						font-weight: 100;
+						font-size: 16px;
+						line-height: 20px;
+						letter-spacing: -0.285714px;
+						color: #2D314D;
+						margin-bottom: 8px;
+						margin-top: 8px;
+
+					}
+					.link-second-page:hover {
+						color: #30C88F;
+					}
+					.text-second-page {
+						font-size: 13px;
+						line-height: 18px;
+						letter-spacing: -0.203125px;
+						color: #9597A5;
+						margin: 0;
+						padding: 0;
+					}
+				}
+			}
+			&-item:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 450px) {
+	.section-second {
+		background-color: #FAFAFA;
+		padding: 88px 24px;
+
+		.second-page {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			.heading-secondary-first {
+				font-size: 32px;
+				line-height: 38px;
+				text-align: center;
+				letter-spacing: -0.571429px;
+				margin-bottom: 31px;
+			}
+			&-list {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				&-item {
+					margin-top: 24px;
+					width: 327px;
+					background: #FFFFFF;
+					border-radius: 5px;
+					margin-right: 0px;
+					img {
+						width: 327px;
+						height: 200px;
+					}
+					.info-wrapper-second {
+						padding: 24px 30px;
+
+						.autor-second {
+							display: block;
+							font-weight: normal;
+							font-size: 10px;
+							line-height: 18px;
+							letter-spacing: -0.15625px;
+						}
+						.link-second-page{
+							width: 207px;
+							display: inline-block;
+							font-weight: 100;
+							font-size: 16px;
+							line-height: 20px;
+							letter-spacing: -0.285714px;
+							margin-bottom: 8px;
+							margin-top: 8px;
+						}
+						.link-second-page:hover {
+							color: #2D314D;
+						}
+						.text-second-page {
+							font-size: 13px;
+							line-height: 18px;
+							letter-spacing: -0.203125px;
+							color: #9597A5;
+						}
+					}
+				}
+				&-item:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}
