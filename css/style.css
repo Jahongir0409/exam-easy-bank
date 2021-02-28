@@ -579,7 +579,7 @@ footer .footer-page-right-info {
 @media only screen and (max-width: 450px) {
   footer {
     background-color: #2D314D;
-    max-width: 100vw;
+    max-width: 450px;
   }
   footer .footer-page {
     position: relative;
@@ -665,6 +665,11 @@ footer .footer-page-right-info {
 @media only screen and (max-width: 400px) {
   footer {
     width: 400px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  footer {
+    width: 350px;
   }
 }
 html {

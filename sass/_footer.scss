@@ -80,7 +80,7 @@ footer {
 @media only screen and (max-width: 450px) {
 	footer {
 	background-color: #2D314D;
-	max-width: 100vw;
+	max-width: 450px;
 		.footer-page  {
 			position: relative;
 			display: flex;
@@ -172,6 +172,12 @@ footer {
 @media only screen and (max-width: 400px) {
 	footer{
 		width: 400px;
+
+	}
+}
+@media only screen and (max-width: 350px) {
+	footer{
+		width: 350px;
 
 	}
 }
