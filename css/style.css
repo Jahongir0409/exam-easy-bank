@@ -577,9 +577,13 @@ footer .footer-page-right-info {
 }
 
 @media only screen and (max-width: 450px) {
+  .footer-container {
+    width: 100vw;
+  }
+
   footer {
     background-color: #2D314D;
-    max-width: 450px;
+    max-width: 100vw;
   }
   footer .footer-page {
     position: relative;
@@ -663,13 +667,17 @@ footer .footer-page-right-info {
   }
 }
 @media only screen and (max-width: 400px) {
-  footer {
-    width: 400px;
+  .footer-container {
+    width: 100vw;
   }
 }
 @media only screen and (max-width: 350px) {
+  .footer-container {
+    width: 100vw;
+  }
+
   footer {
-    width: 350px;
+    width: 100vw;
   }
 }
 html {
@@ -714,6 +722,7 @@ body {
     max-width: 450px;
     margin-right: auto;
     margin-left: auto;
+    overflow: hidden;
   }
 }
 @media only screen and (max-width: 400px) {
